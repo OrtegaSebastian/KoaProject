@@ -1,0 +1,26 @@
+{
+  "name": "entregakoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrtegaSebastian/KoaProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrtegaSebastian/KoaProject/issues"
+  },
+  "homepage": "https://github.com/OrtegaSebastian/KoaProject#readme",
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "mongoose": "^6.9.1"
+  }
+}
