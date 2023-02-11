@@ -1,6 +1,6 @@
 const Koa = require('koa');
 const mongoose = require('mongoose');
-const bodyParser = require('koa-body');
+const {koaBody} = require('koa-body');
 const router = require('./routes');
 
 const app = new Koa();
@@ -17,7 +17,7 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
-app.use(bodyParser());
+app.use(koaBody());
 app.use(router.routes());
 app.use(router.allowedMethods());
 
